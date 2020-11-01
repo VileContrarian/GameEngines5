@@ -1,0 +1,4 @@
+[INFO]: Window created in: Window.cpp on line: 53
+[INFO]: Creating Start Scene in: StartScene.cpp on line: 11
+[INFO]: OnCreate completed in: CoreEngine.cpp on line: 35
+[INFO]: Creating Game Scene in: GameScene.cpp on line: 13

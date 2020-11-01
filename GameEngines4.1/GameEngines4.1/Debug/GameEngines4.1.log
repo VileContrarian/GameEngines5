@@ -1,0 +1,24 @@
+﻿  Camera.cpp
+  CoreEngine.cpp
+  GameObject.cpp
+C:\Users\Mack\Desktop\GameEngines4.1\GameEngines4.1\Engine\Rendering\3D\GameObject.cpp(29,20): warning C4018: '<=': signed/unsigned mismatch
+  Game1.cpp
+  GameScene.cpp
+C:\Users\Mack\Desktop\GameEngines4.1\GameEngines4.1\Engine\Rendering\3D\GameObject.h(31,1): warning C4540: dynamic_cast used to convert to inaccessible or ambiguous base; run-time test will fail ('T *' to 'Component *')
+          with
+          [
+              T=ComponentA
+          ]
+C:\Users\Mack\Desktop\GameEngines4.1\GameEngines4.1\Game\Scenes\GameScene.cpp(270): message : see reference to function template instantiation 'void GameObject::AddComponent<ComponentA>(void)' being compiled
+C:\Users\Mack\Desktop\GameEngines4.1\GameEngines4.1\Engine\Rendering\3D\GameObject.h(33,1): error C2243: 'type cast': conversion from 'T *' to 'const _Ty' exists, but is inaccessible
+          with
+          [
+              T=ComponentA
+          ]
+          and
+          [
+              _Ty=Component *
+          ]
+  StartScene.cpp
+  Main.cpp
+  Generating Code...
